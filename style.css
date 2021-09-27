@@ -114,13 +114,14 @@ h2 {
 .velikosti {
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .velikosti li {
-  display: inline-block;
-  list-style: none;
   margin: 8px;
   padding: 4px;
+  list-style: none;
 }
 
 .vybrana {
